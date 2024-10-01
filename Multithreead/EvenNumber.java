@@ -18,7 +18,7 @@ package com.Multithreead;
 public class EvenNumber {
         public static void main(String[] args) {
             EvenNumberPrinter evenThread = new EvenNumberPrinter();
-            evenThread.start(); 
+            evenThread.start();
 
             try {
                 evenThread.join();
